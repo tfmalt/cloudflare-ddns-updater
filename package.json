@@ -1,0 +1,16 @@
+{
+  "name": "cloudflare",
+  "version": "0.1.0",
+  "description": "Utility DDNS Script to update cloudflare DNS records when IP changes ",
+  "main": "cloudflare.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DDNS",
+    "Utility",
+    "Cloudflare"
+  ],
+  "author": "Thomas Malt",
+  "license": "MIT"
+}
