@@ -12,5 +12,18 @@
     "Cloudflare"
   ],
   "author": "Thomas Malt",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "dependencies": {
+    "network-address": "^1.1.0",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3",
+    "winston": "^2.3.0"
+  }
 }
