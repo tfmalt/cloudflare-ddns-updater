@@ -1,8 +1,9 @@
 {
   "name": "cloudflare-ddns-updater",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "Utility DDNS Script to update cloudflare DNS records when IP changes ",
-  "main": "./lib/cf-ddns.js",
+  "repository": "https://github.com/tfmalt/cloudflare-ddns-updater.git",
+  "main": "./lib/cfddns.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
