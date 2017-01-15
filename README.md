@@ -1,11 +1,11 @@
 # cloudflare-ddns-updater
 
-A simple script to update dynamic DNS records through [cloudflare](https://www.cloudflare.com). Provided in case anyone finds it
+This is a simple script to update dynamic DNS records through [cloudflare](https://www.cloudflare.com). It's provided in case anyone finds it
 useful.
 
 To use it you have to have an account with cloudflare and use them as your
-DNS provider. The script is written in node.js and tested with node.js 7.4
-on MacOS Sierra and Ubuntu 16.10.
+DNS provider. The script is written in [node.js](https://nodejs.org/en/) and tested with [node.js 7.4](https://nodejs.org/en/)
+on **MacOS Sierra** and [Ubuntu 16.10](https://www.ubuntu.com/).
 
 ## Setup and configuration
 
