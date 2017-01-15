@@ -1,0 +1,16 @@
+{
+  "_comment": "Rename to config.json and update with your settings.",
+  "api": {
+    "key": "<your cloudflare api key>",
+    "email": "your.email@example.org",
+    "zones": "<the cloudflare zone you want to update>"
+  },
+  "hosts": {
+    "ssh.example.org": {
+      "types": ["A", "AAAA"]
+    },
+    "vpn.example.org": {
+      "types": ["A", "AAAA"]
+    }
+  }
+}
