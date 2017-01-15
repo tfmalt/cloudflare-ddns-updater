@@ -22,7 +22,7 @@
     "eslint-plugin-standard": "^2.0.1"
   },
   "dependencies": {
-    "network-address": "^1.1.0",
+    "network-address": "https://github.com/tfmalt/network-address.git",
     "request": "^2.79.0",
     "request-promise-native": "^1.0.3",
     "winston": "^2.3.0"
