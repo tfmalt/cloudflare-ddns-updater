@@ -22,8 +22,8 @@ $ cp config_example.json config.json
 $ vim config.json
 ```
 
-You will find your **API key** and your **zone id** from the **Overview**
-page in your account.  
+You will find your **API key** and your **zone id** in the **Overview**
+page of your cloudflare account.  
 ```javascript
 {
   "api": {
@@ -42,8 +42,11 @@ page in your account.
 }
 ```
 
-If you want you can now install the script globally to make it easy to use.
-Just make sure the configuration is valid first.
+## Install
+
+Make sure the configuration is valid and then you can install the script
+globally to make it easy to use:
+
 ```bash
 $ npm install . -g
 ```
