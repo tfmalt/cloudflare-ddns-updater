@@ -10,10 +10,12 @@ on **MacOS Sierra** and [Ubuntu 16.10](https://www.ubuntu.com/).
 ## Setup and configuration
 
 First clone the repository to somewhere on your system:
+
 ```bash
 $ git clone https://github.com/tfmalt/cloudflare-ddns-updater.git
 $ cd cloudflare-ddns-updater
 ```
+
 Copy the file **config_example.json** to **config.json** and edit it to
 suit your needs:
 
@@ -24,6 +26,7 @@ $ vim config.json
 
 You will find your **API key** and your **zone id** in the **Overview**
 page of your cloudflare account.  
+
 ```javascript
 {
   "api": {
